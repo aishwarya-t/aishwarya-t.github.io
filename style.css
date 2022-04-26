@@ -2,12 +2,21 @@ h1 {
     font-size: 3em;
 }
 
+h4 {
+    font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+.adjust-line-height {
+    line-height: 1em;
+}
+
 #heart_pic {
     height: 75px 
 }
 
 .social-icon {
     height: 50px;
+    vertical-align: middle
 }
 
 body {
@@ -21,4 +30,23 @@ div {
 a {
     color: brown;
     text-decoration: none;
+}
+
+html {
+    font-family: "Garamond", serif;  
+    font-size: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(250, 201, 201);
+    align-items: center;
+    justify-content: center;
+}
+  
+.flex-container div {
+    background-color: #e29f9f;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
 }
