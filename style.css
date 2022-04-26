@@ -1,0 +1,24 @@
+h1 {
+    font-size: 3em;
+}
+
+#heart_pic {
+    height: 75px 
+}
+
+.social-icon {
+    height: 50px;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+div {
+    background-color: white;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
