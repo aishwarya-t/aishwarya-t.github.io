@@ -1,58 +1,133 @@
-<html>
-    <head>
-        <title>Aishwarya's Website</title>
-        <meta charset="utf-8">   
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    </head>
-    <body>
-        <center>
-            <h1>Aishwarya Thadiparthi</h1>  
-        </center>
-        <div class="adjust-line-height">
-            <center>  
-                <h4> ATHADIPA@UCI.EDU</h4>
-            </center>
-        </div>
-        
-        <center>
-            <img src="images/cute-transparent-pixel-art-856333.png" 
-            alt="Picture of Pink Pixel Heart" id="heart_pic" class="adjust-line-height">
-        </center>
-        <div class="adjust-line-height">
-            <p>This is my website!</p>
-            <a href="https://google.com" target="_blank">
-                Google's Website
-            </a>
+<!doctype html>
+<html lang="en">
 
-            <h2>Aishwarya's favorite foods!</h2>
-            <ul>
-                <li>Acai Bowls</li>
-                <li>Burgers</li>
-                <li>Pizza</li>
-                <li>Donuts</li>
-            </ul>
-        </div>
-        
-        <div class="flex-container">
-            <div>
-                <a href="https://aishwarya-t.github.io/resume.pdf">
-                    Resume
-                </a>
-            </div>
-        </div>
 
-        <div style="text-align:center">
-            <a href="https://github.com/aishwarya-t">
-                <img src="images/github-icon-free-download-symbol-logo-trademark-label-transparent-png-1868500.png" class="social-icon">
-            </a>
-            <a href="https://www.linkedin.com/in/aishwaryat/">
-                <img src="images/social-linked-png-icon-free-download-930880.png" class="social-icon">
-            </a>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Aishwarya Thadiparthi">
+  <meta name="description" content="A personal website for Aishwarya Thadiparthi">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Aishwarya Thadiparthi's Portfolio</title>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+      <div class="name" style="font-family: 'Times New Roman', Times, serif; font-size: 30px; color: #f5f0ec;">Aishwarya Thadiparthi</div>
+      <div class="social-icons">
+        <a href="https://linkedin.com/in/aishwaryat" target="_blank" style="color: #f5f0ec;">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/aishwarya-t" target="_blank" style="color: #f5f0ec;">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="mailto:athadipa@uci.edu" style="color: #f5f0ec;">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Introduction Section -->
+<div class="container-fluid" style="background-color: #f5f0ec;">
+  <div class="row d-flex align-items-center" style="height: calc(100vh - 100px);">
+
+    <!-- Text Section --> 
+    <div class="col-lg-6 col-md-6 col-sm-12 px-4">
+      <div class="responsive-title" style="color: #9a9d68; font-family:'Times New Roman', Times, serif; font-size: 40px; font-weight: bold; padding-left: 100px;">
+        Hi!
+      </div>
+      <div class="mt-4" style="font-family: 'Times'; color: #4A5759; font-size: 18px; padding-left: 100px;">
+        I'm Aishwarya, a 4th year Computer Science student at UC Irvine, specializing in Intelligent Systems. I’m passionate about using technology to develop innovative solutions and enhance user experiences through collaboration and creative problem-solving. <br><br>
+        Check out some of my notable projects below!
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+      <img src="images/me1.png" alt="Profile Picture of Aishwarya" class="img-fluid" style="max-width: 330px; height: auto; object-fit: cover">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Projects Section -->
+<section class="projects" style="background-color: #f7f7f7; padding: 20px 0;">
+  <div class="container">
+    <!-- Title -->
+    <div class="row">
+      <div class="col-12">
+        <h2 class="responsive-title" style="color: #9a9d68; font-family: 'Times New Roman', Times, serif; font-size: 30px; font-weight: bold; margin-left: -15px; margin-bottom: 20px;">
+          Projects
+        </h2>
+      </div>
+    </div>
+
+    <!-- Project List -->
+    <div class="row d-flex justify-content-center" style="border: 2px solid #9a9d68; border-radius: 10px; padding: 20px; background-color: #ffffff;">
+      <!-- Interactive Project 1 -->
+      <div class="col-lg-3 col-md-5 col-sm-8 project-box interactive" style="position: relative; overflow: hidden; padding: 0; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #9a9d68;">
+        <h3 style="font-family: 'Times'; font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 20px;">Skincare.io</h3>
+        <img src="images/skincare.png" style="max-width: 100%; max-height: 50%; margin-top: 20px;">
+        <div class="project-hover">
+          <p>insert description</p>
         </div>
-        
-    </body>
+      </div>
+
+      <!-- Interactive Project 2 -->
+      <div class="col-lg-3 col-md-5 col-sm-8 project-box interactive" style="position: relative; overflow: hidden; padding: 0; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #c4c78e;">
+        <h3 style="font-family: 'Times'; font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 20px;">CubeSat</h3>
+        <img src="images/cubesat1.png" style="max-width: 100%; max-height: 50%; margin-top: 20px;">
+        <div class="project-hover">
+          <p>insert description</p>
+        </div>
+      </div>
+
+      <!-- Interactive Project 3 -->
+      <div class="col-lg-3 col-md-5 col-sm-8 project-box interactive" style="position: relative; overflow: hidden; padding: 0; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #9a9d68;">
+        <h3 style="font-family: 'Times'; font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 20px;">Texas Hold'em</h3>
+        <img src="images/texas.png" style="max-width: 100%; max-height: 50%; margin-top: 20px;">
+        <div class="project-hover">
+          <p>insert description</p>
+        </div>
+      </div>
+
+      <!-- Interactive Project 4 -->
+      <div class="col-lg-3 col-md-5 col-sm-8 project-box interactive" style="position: relative; overflow: hidden; padding: 0; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #c4c78e;">
+        <h3 style="font-family: 'Times'; font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 20px;">Web Search Engine</h3>
+        <img src="images/websearchengine1.png" style="max-width: 100%; max-height: 50%; margin-top: 20px;">
+        <div class="project-hover">
+          <p>insert description</p>
+        </div>
+      </div>
+
+      <!-- Interactive Project 5 -->
+      <div class="col-lg-3 col-md-5 col-sm-8 project-box interactive" style="position: relative; overflow: hidden; padding: 0; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #9a9d68;">
+        <h3 style="font-family: 'Times'; font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 20px;">CycleCrave</h3>
+        <img src="images/cyclecrave.png" style="max-width: 100%; max-height: 50%; margin-top: 20px;">
+        <div class="project-hover">
+          <p>insert description</p>
+        </div>
+      </div>
+
+      <!-- Interactive Project 6 -->
+      <div class="col-lg-3 col-md-5 col-sm-8 project-box interactive" style="position: relative; overflow: hidden; padding: 0; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #c4c78e;">
+        <h3 style="font-family: 'Times'; font-size: 18px; font-weight: bold; color: #ffffff; margin-top: 20px;">RIA Chatbot</h3>
+        <img src="images/ria.png" style="max-width: 100%; max-height: 50%; margin-top: 20px;">
+        <div class="project-hover">
+          <p>insert description</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+</body>
 </html>
-
-
-

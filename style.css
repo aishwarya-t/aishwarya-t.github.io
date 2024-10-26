@@ -1,52 +1,112 @@
-h1 {
-    font-size: 3em;
-}
-
-h4 {
-    font-family: 'Trebuchet MS', 'sans-serif';
-}
-
-.adjust-line-height {
-    line-height: 1em;
-}
-
-#heart_pic {
-    height: 75px 
-}
-
-.social-icon {
-    height: 50px;
-    vertical-align: middle
-}
-
-body {
-    background-color: peachpuff;
-}
-
-div {
-    background-color: white;
-}
-
-a {
-    color: brown;
-    text-decoration: none;
-}
-
-html {
-    font-family: "Garamond", serif;  
-    font-size: 1rem;
-}
-
-.flex-container {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    background-color: #DEDBD2; 
+    color: #0c0c0c; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-container {
     display: flex;
-    background-color: rgb(250, 201, 201);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #9a9d68;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .social-icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    background-color: #f5f0ec;
+    flex: 1; 
+  }
+  
+  .intro-text h1 {
+    font-size: 36px; 
+    color: #9a9d68; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+  }
+  
+  .summary {
+    font-size: 16px; 
+    color: #666; 
+  }
+  
+  .image-section {
+    flex: 1; 
+    text-align: right; 
+  }
+  
+  .profile-picture {
+    max-width: 150px; 
+    height: auto; 
+  }
+  
+  .projects {
+    padding: 40px;
+    background-color: #DEDBD2;
+  }
+  
+  .projects h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #f5f0ec;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .project-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .interactive .project-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9a9d68;
+    color: #ffffff;
+    display: flex;
     align-items: center;
     justify-content: center;
-}
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+  }
   
-.flex-container div {
-    background-color: #e29f9f;
-    margin: 10px;
-    padding: 10px;
-    font-size: 15px;
-}
+  .interactive:hover .project-hover {
+    opacity: 1;
+  }
