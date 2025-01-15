@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e9e165d.css",
+    "main.js": "/static/js/main.1a601eac.js",
+    "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
+    "static/media/texas.png": "/static/media/texas.bb143b4da28d7076cd6e.png",
+    "static/media/me1.png": "/static/media/me1.c782cdd2d1c27fa948e1.png",
+    "static/media/websearchengine1.png": "/static/media/websearchengine1.cd2470d6ac935845266d.png",
+    "static/media/ria.png": "/static/media/ria.ccbc8fa09915c0d6820b.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/cubesat1.png": "/static/media/cubesat1.e14eabdeee48a61c9bbe.png",
+    "static/media/cyclecrave.png": "/static/media/cyclecrave.510ae4e2eb72ec122e4c.png",
+    "static/media/skincare.png": "/static/media/skincare.0e6a9c21e7934ba0c1e5.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/index.html",
+    "main.7e9e165d.css.map": "/static/css/main.7e9e165d.css.map",
+    "main.1a601eac.js.map": "/static/js/main.1a601eac.js.map",
+    "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e9e165d.css",
+    "static/js/main.1a601eac.js"
+  ]
+}
